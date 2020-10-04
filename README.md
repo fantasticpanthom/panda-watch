@@ -9,6 +9,26 @@ panda-watch is a configurable reconnaissance tool written in go lang for the pur
 
 ## Usage
 
-WILL BE ADDED SOON
+The file containing the messages should be placed in a file with the name new.txt.
+
+```bash
+>> panda-watch -webhook <yourwebhook>
+```
+
 ## Installation 
-WILL BE ADDED SOON
+### From source:
+```
+>>go get -u -v github.com/fantasticpanthom/panda-watch
+
+or
+
+>>cd $GOPATH
+>>git clone https://github.com/fantasticpanthom/panda-watch.git
+>>go build main.go -o panda-watch
+>>mv panda-watch /usr/local/bin
+```
+
+### From binary:
+You can download the pre-built binaries from the [releases](https://github.com/fantasticpanthom/panda-watch/releases) page and then move them into your $PATH.
+
+Binaries for other operating systems and architectures will be released soon.
